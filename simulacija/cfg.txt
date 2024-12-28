@@ -1,0 +1,13 @@
+// Enable Control (Offset 0)
+0x63000000 0x00000001   // ModuleID = 0x20, opCode = 0, numWords = 1, offset = 0; Value = "On" (1)
+
+// Input Gain Control (Offset 1)
+0x63000001 0xC1200000   // ModuleID = 0x20, opCode = 0, numWords = 1, offset = 1; Value = -6 dB (fixed-point: 0xC1200000)
+
+// Mode Control (Offset 2)
+0x63000002 0x00000001   // ModuleID = 0x20, opCode = 0, numWords = 1, offset = 2; Value = 1 (Mode)
+
+// OutputMode Control (Offset 3)
+0x63000003 0x00000003   // ModuleID = 0x20, opCode = 0, numWords = 1, offset = 3; Value = (2_0_0 - 0x03; 2_0_1 - 0x23; 2_2_0 - 0x1B; 2_2_1 - 0x3B)
+
+

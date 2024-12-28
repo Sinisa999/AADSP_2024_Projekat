@@ -1,0 +1,11 @@
+**
+!.gitignore
+!Makefile
+!include/
+!include/**/**.h
+!include/**/**.hpp
+!include/xtensa/
+!include/xtensa/tie/
+!src/
+!src/**.c
+!src/**.cpp

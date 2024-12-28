@@ -1,0 +1,10 @@
+*
+!.gitignore
+!Makefile
+!**/
+!**/*.h
+!**/*.hpp
+!**/*.hxx
+!**/*.c
+!**/*.cpp
+!**/*.cxx
